@@ -1,0 +1,12 @@
+services:
+  windsight:
+    build: .
+    ports:
+      - "127.0.0.1:${WINDSIGHT_PORT:-8000}:8000"
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
