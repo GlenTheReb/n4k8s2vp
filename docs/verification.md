@@ -18,7 +18,7 @@ Checks executed on 28 October 2026. Results below describe observed outcomes, no
 | Credential-pattern scan | No matching private keys or common token patterns in candidate source files; `.env`, virtual environment, raw cache and SDD ignored |
 | Silent visual rehearsal | 37.8 seconds, 1440×1000; VP8 source and H.264 MP4 inspected with ffprobe; no narration or upload |
 | Vercel | Create-project blocked by team scope 403; user reports consent approval but retry still fails. No public deployment exists yet |
-| GitHub | Connected identity verified; local Git credential available. Repository creation/publication not executed |
+| GitHub | Public `https://github.com/GlenTheReb/n4k8s2vp` created and source pushed; anonymous API confirms 54 intended files, README and processed snapshot present, SDD excluded; default branch `feature/windsight` |
 | Submission form | Read in browser; eight fields recorded in submission document; nothing entered or submitted |
 
 Core analytical tests cover publication equality and one-second-after cutoff; multiple revisions; no eligible forecast; exact timestamp joins; missing actuals; deterministic duplicate collapse and conflicting-duplicate rejection; latest retrospective WIND-only actual; formula and bias signs; valid zero generation; January boundaries including Feb-1 delivery; equivalent timestamp offsets; naive timestamps; DST-safe target grids; sparse forecasts; invalid generation; API input errors; CSV null handling; missing-cache 503; retry, schema and raw-cache behavior.
@@ -29,6 +29,8 @@ Docker first exposed an incorrect project-root calculation in ingestion. Only th
 
 The design concept showed illustrative three-hour points and placeholder metrics. The implementation deliberately uses genuine hourly targets, actual sample counts, applied-filter context, read-only timezone/delivery labels and explicit coverage assumptions. Exact pixel duplication of illustrative data was not used as a reason to misrepresent the source. The final UI is code-native and contains no screenshot-based controls.
 
-Remaining checks: successful Vercel build and signed-out runtime checks; public GitHub readability and source completeness; final narrated YouTube video accessibility; all final form links checked in a fresh anonymous context. Chromium is covered; Firefox and Safari are not. No performance load test or formal accessibility audit has been performed.
+Remaining checks: successful Vercel build and signed-out runtime checks; final narrated YouTube video accessibility; all final form links checked in a fresh anonymous context. Public GitHub readability and source completeness are verified. Chromium is covered; Firefox and Safari are not. No performance load test or formal accessibility audit has been performed.
+
+Git inclusion audit: 19 required deliverable paths are tracked, and 10 representative local/generated paths are ignored. Tracked files include all `docs/`, backend/frontend code, both test suites, lockfiles, processed data and manifest, and container/deployment files. Excluded paths include SDD, secrets, raw data, environments, dependencies, generated builds and test artifacts. `.gitattributes` standardizes source line endings. Publication was explicitly approved in the current conversation.
 
 Local architectural handoff context (intentionally ignored): `SDD.md:3` Current status and execution pointer; `SDD.md:6` Architecture; `SDD.md:9` Temporal model and analytical safety; `SDD.md:12` Interfaces and storage; `SDD.md:15` Verification and remaining work. Reopen those bounded sections when continuing publication or data refresh work.

@@ -2,7 +2,7 @@
 
 **Day-Ahead Wind Generation Intelligence** — an auditable pilot for exploring which national wind forecast was available at a purchasing decision and how it compared with observed generation.
 
-Live application: **publication pending**. Public repository: **publication pending**. The application works locally; no public deployment or video upload is claimed until independently verified.
+Live application: **publication pending**. Public repository: [GlenTheReb/n4k8s2vp](https://github.com/GlenTheReb/n4k8s2vp). The application works locally; no public deployment or video upload is claimed until independently verified.
 
 ## Features
 
@@ -42,6 +42,8 @@ docs/                        Requirements, verification, learning, demo, submiss
 Dockerfile, docker-compose.yml   Reproducible single-origin local runtime
 vercel.json, pyproject.toml  Vercel Python preset and build configuration
 ```
+
+Version control intentionally includes the source, tests, README, `docs/`, lockfiles, environment **example**, Docker/deployment configuration and genuine processed snapshot. It excludes local `SDD.md`, `.env` secrets, virtual environments, `node_modules`, frontend builds, raw downloads, deployment metadata, test outputs and browser logs. `.gitattributes` keeps source line endings consistent across Windows and Linux. No original assignment attachment or personal authentication file is published.
 
 ## Run with Docker
 
