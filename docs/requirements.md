@@ -10,9 +10,9 @@ Source of assignment requirements: the supplied v4.1 intern DOCX, read in full. 
 | January 2026 purchase decisions | 1–31 Jan decision dates map to 2 Jan–1 Feb delivery | Implemented |
 | React frontend, Python backend | React/TypeScript/Vite; FastAPI and Pydantic models | Implemented |
 | Docker | Multi-stage Dockerfile and single-origin Compose; healthy running container; browser suite passes against container | Verified |
-| Vercel or Heroku | Vercel FastAPI preset and built static frontend | Publication pending |
-| Public GitHub repo, anonymous name | Source and lockfiles prepared; proposed random name will be verified before creation | Publication pending |
-| README: files, startup, deployment link | README.md; live link pending actual publication | Implemented except live link |
+| Vercel or Heroku | Vercel FastAPI runtime at https://n4k8s2vp.vercel.app; public HTTP and browser checks | Verified |
+| Public GitHub repo, anonymous name | https://github.com/GlenTheReb/n4k8s2vp; source, tests, data, docs and lockfiles | Verified anonymously |
+| README: files, startup, deployment link | README.md, including verified live URL | Implemented |
 | Explicit AI acknowledgement | README.md | Implemented |
 | Unlisted YouTube, ≤10 min, customer ≤5 min + technical ≤5 min | docs/video-walkthrough.md timed script and shot list; silent rehearsal recorded | Prepared; narrated video and upload pending |
 | Submit supplied form and verify URLs anonymously | docs/submission.md; final approval required | Pending |

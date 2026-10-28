@@ -11,14 +11,14 @@ Form: [Full Stack SWE challenge submission v4.1 intern](https://forms.cloud.micr
 | 3. LinkedIn URL | User to supply exact public profile URL |
 | 4. Resume: Google Drive link, without password or access restriction | User to supply intended resume link; verify anonymous access |
 | 5. Demo video link: unlisted YouTube video | Pending final narrated recording and upload; script in `video-walkthrough.md` |
-| 6. App demo link: Vercel/Heroku | Pending Vercel team access resolution and public deployment |
+| 6. App demo link: Vercel/Heroku | [https://n4k8s2vp.vercel.app](https://n4k8s2vp.vercel.app) — verified in fresh anonymous browser context; public browser tests pass |
 | 7. Repo link: GitHub | [https://github.com/GlenTheReb/n4k8s2vp](https://github.com/GlenTheReb/n4k8s2vp) — public source and required files verified anonymously |
 | 8. Email id | User to confirm recruiting email; do not infer from Git or deployment accounts |
 
 ## Remaining delivery sequence
 
-1. Complete Vercel team consent for the existing team. The connector currently returns 403 even after the first reported approval. Retry only after the final consent screen completes, then create the isolated project and deploy these source files. Do not change another project.
-2. Check the public app in a fresh unauthenticated browser context: root, source assets, API health, default Explorer, accuracy, Jan-31/Feb-1 boundary, CSV and mobile. Require zero app console errors. Record the exact production URL in this file and README.
+1. Vercel team consent, isolated project creation and production deployment are complete. The public app is https://n4k8s2vp.vercel.app.
+2. Public app validation is complete: root, API health, Explorer, accuracy, insights, methodology, Jan-31/Feb-1 boundary, CSV, mobile and all three browser workflows pass. Fresh anonymous navigation produced no app console warnings/errors. The exact URL is recorded here and in README.
 3. Public repository creation and source publication are complete with explicit user approval. Anonymous access confirms the source, tests, processed snapshot, lockfiles, Docker setup and docs; SDD, raw responses, secrets and local environments are excluded. Keep its README and submission links synchronized with the final deployment.
 4. Rehearse and record the two-part script: customer ≤5 minutes, technical ≤5 minutes, total ≤10 minutes. The optional silent rehearsal is a visual reference, not the final submission video. Upload as **Unlisted**, copy the watch URL and verify playback while signed out.
 5. Obtain the user's intended contact/profile/resume details, check every URL anonymously, and request final form approval. Only then submit.

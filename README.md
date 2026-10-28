@@ -2,7 +2,7 @@
 
 **Day-Ahead Wind Generation Intelligence** — an auditable pilot for exploring which national wind forecast was available at a purchasing decision and how it compared with observed generation.
 
-Live application: **publication pending**. Public repository: [GlenTheReb/n4k8s2vp](https://github.com/GlenTheReb/n4k8s2vp). The application works locally; no public deployment or video upload is claimed until independently verified.
+Live application: **[n4k8s2vp.vercel.app](https://n4k8s2vp.vercel.app)**. Public repository: [GlenTheReb/n4k8s2vp](https://github.com/GlenTheReb/n4k8s2vp). Both were independently verified without authentication on 28 October 2026. Final narrated YouTube video: **not yet recorded or uploaded**; timed script and recording plan are prepared.
 
 ## Features
 
@@ -114,7 +114,7 @@ Executed results and remaining checks are in [docs/verification.md](docs/verific
 
 ## Deployment and limitations
 
-Vercel's supported FastAPI preset loads `app.py`; the build command compiles React, and the static mount serves the frontend on the same origin. The historical snapshot is bundled read-only. No durable writable disk or background ingestion is required. See [Vercel's FastAPI documentation](https://vercel.com/docs/frameworks/backend/fastapi). Production publication still needs to be executed and verified; configuration alone is not evidence of successful deployment.
+Vercel's supported FastAPI preset loads `app.py`; the build command compiles React, and the static mount serves the frontend on the same origin. The historical snapshot is bundled read-only. No durable writable disk or background ingestion is required. See [Vercel's FastAPI documentation](https://vercel.com/docs/frameworks/backend/fastapi). Production publication succeeded, all three browser workflows pass against the public URL, and a fresh anonymous context verified navigation, February delivery, data provenance and zero browser warnings/errors. [Live API docs](https://n4k8s2vp.vercel.app/docs) expose the same contracts as the local application.
 
 This is a bounded historical pilot. It has no live data refresh, user accounts or persistent saved filters. A two-day publication warmup supports the first decision; earlier publications outside that window are not retained. It does not prove every historical revision was available at precisely the recorded publication time. Error samples are observations in MW rather than independent statistical trials or energy volumes. Sparse target matching can make the sample unrepresentative of intervening half-hours. No confidence guarantee is inferred.
 
